@@ -1,0 +1,26 @@
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string playerName;
+    string playerOutfit;
+
+    cout << "Welcome to the Dress Up Game!" << endl;
+
+    cout << "Enter your name: ";
+    cin >> playerName;
+
+    cout << "Hello, " << playerName << "! Let's start dressing up." << endl;
+
+    cout << "Choose your outfit (casual, formal, sporty): ";
+    cin >> playerOutfit;
+
+    cout << "Great choice! You are now wearing a " << playerOutfit << " outfit." << endl;
+
+    cout << "Enjoy the game, " << playerName << "!" << endl;
+
+    return 0;
+}
